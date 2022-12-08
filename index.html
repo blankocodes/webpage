@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic webpage</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav>
+        <div class="navbox">
+            <div class="logo">
+                <h1>Webpage</h1>
+            </div>
+            <div class="buttons">
+                <ul>
+                    <li><a class="ar1" href="#">Home</a></li>
+                    <li><a class="ar1" href="#">Blog</a></li>
+                    <li><a class="ar1" href="#">Chatroom</a></li>
+                    <li><a class="ar1" href="#">About</a></li>
+                    <li><a class="ar2" id="button" onclick="mobilenav();" href="#"><img src="/images/menu.png"></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<div style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" id="mobilenav" class="mobilenav">
+  <ul style="list-style-type: none; background-color: rgb(53, 53, 53);">
+    <li><a href="#" style="color:black; text-decoration: none; background-color: white; border-radius: 10px; display: inline-block; padding: 5px 50% 5px 0px; margin-top: 10px;">&nbsp; Home</a></li>
+    <li><a href="#" style="color:black; text-decoration: none; background-color: white; border-radius: 10px; display: inline-block; padding: 5px 50% 5px 0px; margin-top: 10px;">&nbsp; Blog</a></li>
+    <li><a href="#" style="color:black; text-decoration: none; background-color: white; border-radius: 10px; display: inline-block; padding: 5px 50% 5px 0px; margin-top: 10px;">&nbsp; Chatroom</a></li>
+    <li><a href="#" style="color:black; text-decoration: none; background-color: white; border-radius: 10px; display: inline-block; padding: 5px 50% 5px 0px; margin: 10px 0px 10px 0px;">&nbsp; About</a></li>
+   </ul>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

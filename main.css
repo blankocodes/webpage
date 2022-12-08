@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+}
+
+.navbox {
+    display: grid;
+    grid-template-areas:
+    'logo space buttons';
+    background-color: rgb(34, 34, 34);
+    height: 75px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.logo {
+    grid-column: 1 / span 1;
+    grid-row: 1;
+  }
+
+.logo {
+    display: grid;
+    grid-template-areas:
+    'logo';
+    height: 75px;
+}
+
+.logo h1 {
+    grid-column: 1 / span 1;
+    grid-row: 2;
+    padding-left: 15px;
+}
+
+.buttons {
+    grid-column: 3 / span 3;
+    grid-row: 1;
+  } 
+
+.buttons {
+    display: grid;
+    grid-template-areas:
+    'buttons';
+    height: 75px;
+}
+
+.buttons ul{
+    grid-column: 1 / span 1;
+    grid-row: 2;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    margin: 0px 15px 0px 0px;
+}
+
+.buttons ul li{
+    display: inline;
+}
+
+.buttons ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 0px 3px 0px 3px;
+}
+
+.ar2{
+    display: none;
+}
+.mobilenav{
+    display: none;
+}
+
+@media only screen and (max-width: 500px){
+    .ar1{
+        display: none;
+    }
+
+    .ar2{
+        display: contents;
+    }
+
+    .ar2 img{
+        height: 30px;
+        padding-top: 5px; 
+    }
+
+}
